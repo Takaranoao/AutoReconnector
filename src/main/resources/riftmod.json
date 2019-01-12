@@ -1,0 +1,12 @@
+{
+  "id": "autoreconnector",
+  "name": "AutoReconnector",
+  "authors": [
+    "Takaranoao"
+  ],
+  "listeners": [
+    "com.takaranoao.mods.autoreconnector.listener.InitListener",
+    {"class":"com.takaranoao.mods.autoreconnector.listener.DoneLoadingListener", "side":"client"},
+    {"class":"com.takaranoao.mods.autoreconnector.listener.ClientTickableListener", "side":"client"}
+  ]
+}
